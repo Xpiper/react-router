@@ -9,7 +9,7 @@ export const Products = () => {
             </div>
             <nav>
                 <Link to='featured'>Featuterd</Link>
-                <Link to='new'>New</Link>
+                <Link to='/products/new'>New</Link>
             </nav>
             <Outlet/>
         </>
